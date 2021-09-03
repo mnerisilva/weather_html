@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #606767;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:;
+    align-items: center;
+    width: 500px;
+    height: 800px;
+    border: solid thin #dedede;
+}
+
+.app-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    border: solid 1px #fff;
+    margin: 15px;
+    padding: 15px 10px;
+}
+
+.weather-notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    border: solid 1px #fff;
+    margin: 15px;
+    padding: 15px 10px;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    border: solid 1px #fff;
+    margin: 15px;
+    padding: 15px 10px;
+}
+            .weather-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 180px;
+                border: solid 1px #fff;
+            }
+
+            .temperature-value {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 120px;
+                margin-top: 15px;
+                border: solid 1px #fff; 
+            }
+
+            .temperature-description {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 80px;
+                margin-top: 15px;
+                border: solid 1px #fff; 
+            }
+
+            .location {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 80px;
+                margin-top: 15px;
+                border: solid 1px #fff;                 
+            }
